@@ -6,5 +6,12 @@ export const config: ScullyConfig = {
   distFolder: './dist/analu-blog', // output directory of your Angular build artifacts
   outDir: './dist/static', // directory for scully build artifacts
   defaultPostRenderers: [],
-  routes: {},//rotas do blog
+  routes: {
+    '/posts/:postId': {
+      type: 'contentFolder',
+      postId: {
+        folder: "./posts"
+      }
+    }
+  },//rotas do blog
 };

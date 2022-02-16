@@ -1,0 +1,37 @@
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 33px;
+    margin-left: 30px;
+}
+
+span{
+    color: #9771C0;
+}
+
+.pipe{
+    height: 1.9em;
+    background-color: #565C62;
+    border: 1px solid #565C62;
+    margin-left: 30px;
+}
+
+.menu-items{
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+    width: 453px;
+    height: 26px;
+
+}
+
+.menu-items a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #565C62;
+}

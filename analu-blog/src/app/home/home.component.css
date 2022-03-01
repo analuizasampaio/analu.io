@@ -1,3 +1,5 @@
+/* MENU */
+
 .menu{
     display: flex;
     align-items: center;
@@ -34,4 +36,53 @@ span{
     font-weight: 700;
     font-size: 20px;
     color: #565C62;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin-left: 18%;
+}
+
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: initial;
+
+}
+
+.text{
+    width: 308px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #565C62;
+}
+
+.coffee-button{
+    height: 52px;
+    width: 209px;
+    border-radius: 40px;
+    background-color: #FD6160;
+    color: #FCF4F4;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #1C0C1B;
+    height: 100vh;
+    width: 100%;
+    border-top-left-radius: 71px;
+    border-top-right-radius: 71px;
+
 }
